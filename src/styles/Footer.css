@@ -1,0 +1,30 @@
+.card-footer {
+    position: relative;
+    bottom: -100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: hsl(229, 23%, 23%);
+  }
+.card-footer .footer-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 31px;
+  }
+  
+  .card-footer .footer-item .status {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .card-footer .footer-item .item-name {
+    color: hsl(227, 10%, 46%);
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-size: 10px;
+  }

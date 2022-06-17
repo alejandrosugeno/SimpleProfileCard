@@ -1,0 +1,53 @@
+
+
+.card-header {
+    flex: 0.3;
+    height: 100px;
+  }
+  
+  .card-header img {
+    width: 691px;
+    height: 250px;
+  }
+  
+ .card-content {
+    
+    position: relative;
+    bottom: -110px;
+  }
+  
+ .card-content img {
+    border-radius: 50%;
+    transform: translateY(-50%);
+    border: 7px solid #fefefe;
+  }
+  
+  .text {
+    position: relative;
+    bottom: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  
+  .name {
+    font-weight: bold;
+    font-size: 48px;
+    color: #000000;
+  }
+  
+  .profession  {
+    font-size: 36px;
+    margin-top: 20px;
+  }
+  
+  .quote  {
+    font-size: 24px;
+    width :
+  426px;
+    height :
+  93px;
+  margin-top: 17px;
+  }
